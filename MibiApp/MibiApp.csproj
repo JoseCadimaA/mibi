@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\AI\" />
+    <Folder Include="Infrastructure\Logging\" />
+    <Folder Include="Infrastructure\WhatsApp\" />
+    <Folder Include="Infrastructure\Persistance\" />
+    <Folder Include="Modules\Catalog\" />
+    <Folder Include="Modules\Conversations\" />
+    <Folder Include="Modules\Messaging\" />
+    <Folder Include="Modules\Appointments\" />
+    <Folder Include="Modules\ArtificialIntelligence\" />
+    <Folder Include="Modules\Administration\" />
+    <Folder Include="Api\" />
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
+</Project>
