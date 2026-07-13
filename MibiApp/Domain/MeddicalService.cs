@@ -2,6 +2,10 @@
 {
     public class MeddicalService
     {
+        public MeddicalService()
+        {
+        }
+
         public int Id { get; set; }
 
         public required string Name { get; set; }
@@ -15,5 +19,7 @@
         public string? EstimatedDuration { get; set; }
 
         public bool IsActive { get; set; }
+
+        
     }
 }
